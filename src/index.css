@@ -1,0 +1,21 @@
+@import url("https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;700&family=Montserrat:wght@700&display=swap");
+
+@import url("https://fonts.googleapis.com/css2?family=Khand:wght@300&family=Roboto:ital,wght@0,300;0,700;1,500;1,700&family=Rubik:ital,wght@0,300;0,500;1,300;1,400&family=Sometype+Mono:wght@400;500&display=swap");
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+html,
+body,
+#root,
+.app {
+  height: 100%;
+  width: 100%;
+  font-family: "Rubik", sans-serif;
+  @apply text-gray-500;
+}
+
+body {
+  overflow-x: hidden;
+}
